@@ -8,7 +8,7 @@ export default props => {
                 <div className="info"><strong>PREENCHENDO OS DADOS</strong><br /></div>
                 1 - Monte uma armação com área de 2m², sendo a largura definida com base da largura de trabalho do arrancador;<br />
                 2 - Coloque - a transversalmente sobre a leira;<br />
-                3 - Retire cuidadosamente as plantas de amendoin de dentro da armação;<br />
+                3 - Retire cuidadosamente as plantas de amendoim de dentro da armação;<br />
                 4 - Colete somente as vagens de 2 (dois) grãos que se encontrar sobre o solo, essas serão consideradas como perdas visíveis.<br /><br />
                 <div className="info"><strong>CONSTRUINDO A ARMAÇÃO</strong><br /><br /></div>
                 <div  className="info">

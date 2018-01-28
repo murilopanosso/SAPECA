@@ -39,7 +39,7 @@ class Measurements extends Component {
     render(){
         return (
             <div>
-                <ContentHeader title='Sistema de avaliação de perdas na colheita de amendoin' small='SAPECA' />
+                <ContentHeader title='Sistema de avaliação de perdas na colheita de amendoim' small='SAPECA' />
                 <Content>
                     <Tabs>
                         <TabsHeader>
