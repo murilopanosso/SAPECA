@@ -1,0 +1,17 @@
+.panel-result {
+    display: none;
+    padding: 50px;
+    min-height: 250px;
+    background: palegreen;
+    text-align: center; 
+}
+
+#btn-reset {
+    margin-top: 50px;
+} 
+
+.info {
+    text-align: center;
+}
+
+table, td, th, tfoot {border:solid 1px #000; padding:5px;}
