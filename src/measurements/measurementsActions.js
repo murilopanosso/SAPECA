@@ -19,6 +19,6 @@ export function runMeasuresCalculations(values){
 export function reset(){
         return{
             type: 'MEASUREMENTS_CALCULATIONS',
-            payload: 0
+            payload: -1
         }
   }
