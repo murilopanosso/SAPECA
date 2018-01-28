@@ -4,6 +4,7 @@
   "description": "Sistema de avaliação de perdas na colheita de amendoim",
   "main": "index.js",
   "scripts": {
+    "start": "webpack --progress -p",
     "dev": "webpack-dev-server --progress --colors --inline --hot"
   },
   "author": "",
