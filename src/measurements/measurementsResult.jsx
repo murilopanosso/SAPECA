@@ -19,7 +19,7 @@ class MeasurementsResult extends Component {
         const {props} = this;
         const {handleSubmit} = this.props;
         return (
-            <div id="panel-result" className="panel-result row">
+            <div id="panel-result" className="panel-result">
                         Sua lavoura perdeu <strong>{props.result.lossesKg}</strong> Kg Ha-¹<br />
                         Você deixou de ganhar <strong>{props.result.moneyLost}</strong> Reais
                         <button className='btn btn-success form-control' id="btn-reset" onClick={this.props.reset}>VOLTAR</button>
