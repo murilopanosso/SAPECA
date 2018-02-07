@@ -43,7 +43,7 @@ class MeasurementsForm extends Component {
                         </div>
                     </div>
                     <div className="box-footer">
-                            <button type="submit" className='btn btn-primary form-control'>Submit</button>
+                            <button type="submit" className='btn btn-primary form-control'>AVALIAR</button>
                     </div>
                 </form>
             </div>
