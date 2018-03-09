@@ -1,7 +1,12 @@
 import React, {Component} from 'react';
 import {reduxForm, Field} from 'redux-form';
+import SelectLossType from './measurementSelectLossType';
+import SelectOperation from './measurementSelectOperation';
+
+
 
 class MeasurementsForm extends Component {
+
     render() {
         const {handleSubmit} = this.props;
         return(
@@ -10,36 +15,22 @@ class MeasurementsForm extends Component {
                     <div className='box-body' >
                         <div className="form-group">
                         <h4>Variedade</h4>
-                            <Field name="variety" component="select"  class="form-control">
-                                <option />
-                                <option value="GEORGIA06">Georgia-06G</option>
+                            <Field name="variety" component="select"  className="form-control">
+                                <option>-Selecione-</option>
+                                <option value="GEORGIA06">Georgia-06G (EUA)</option>
                                 <option value="IAC886">IAC 886</option>
                                 <option value="GANOLEICO">Granoleico</option>
                             </Field>
                         </div>
-                        <div className="form-group">
-                        <h4>Operação</h4>
-                        <Field name="operation" component="select"  class="form-control">
-                            <option />
-                            <option value="digging">Arranquio</option>
-                            <option value="harvesting">Recolhimento</option>
-                        </Field>
-                        </div>
-                        <div className="form-group">
-                        <h4>Tipo de Perda</h4>
-                        <Field name="lossType" component="select"  class="form-control">
-                            <option />
-                            <option value="visible">Visíveis</option>
-                            <option value="invisible">Inivisíveis</option>
-                        </Field>
-                        </div>
+                        <SelectOperation onChange />
+                        <SelectLossType  />
                         <div className="form-group">
                         <h4>Número de Vagens</h4>
-                        <Field name='podsNumber' component='input'  type="number" class="form-control" />
+                        <Field name='podsNumber' component='input'  type="number" className="form-control" />
                         </div>
                         <div className="form-group">
-                        <h4>Valor atual da Saca</h4>
-                        <Field name='currentValue' component='input' type="number"  class="form-control" />
+                        <h4>Valor atual da Saca (25 kg), em R$</h4>
+                        <Field name='currentValue' component='input' type="number"  className="form-control" />
                         </div>
                     </div>
                     <div className="box-footer">

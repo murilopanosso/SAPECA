@@ -6,10 +6,14 @@ export default (state = INITIAL_STATE, action) => {
 
     switch (action.type){
         case 'MEASUREMENTS_CALCULATIONS':
-        console.log(action);
             return {
                 ...state,
                 mr: action.payload
+            }
+        case 'POPULATE_SELECT_LOSS_TYPE':
+            return {
+                ...state,
+                options: action.payload
             }
         default:
             return state    

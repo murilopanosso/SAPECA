@@ -3,14 +3,10 @@ import React from 'react';
 export default props => {
     return (
         <div>
-            <div className="info ion-ios-book" />
             <div>
-                <div className="info"><strong>PREENCHENDO OS DADOS</strong><br /></div>
-                1 - Monte uma armação com área de 2m², sendo a largura definida com base da largura de trabalho do arrancador;<br />
-                2 - Coloque - a transversalmente sobre a leira;<br />
-                3 - Retire cuidadosamente as plantas de amendoim de dentro da armação;<br />
-                4 - Colete somente as vagens de 2 (dois) grãos que se encontrar sobre o solo, essas serão consideradas como perdas visíveis.<br /><br />
-                <div className="info"><strong>CONSTRUINDO A ARMAÇÃO</strong><br /><br /></div>
+                
+                <div className="info"><strong>A - Construindo a armação</strong><br /></div>
+                1 - Monte uma armação com área de 2m², sendo a largura definida com base da largura de trabalho do arrancador ou da recolhedora.<br /><br />
                 <div  className="info">
                     <table align="center"> 
                         <thead>
@@ -32,9 +28,24 @@ export default props => {
                             </td>
                         </tbody>
                     </table>
-                </div><br />
-                <div className="info"><strong>AVALIANDO AS PERDAS</strong><br /></div>                
-                Para estimar as perdas usando o aplicativo com confiabilidade, o valor R² dos modelos das equações geradas foi utilizado como parâmetro
+                </div>
+                2 - Coloque a armação transversalmente sobre o solo.<br />
+                <br />
+                <div className="info"><strong>B - Contando as vagens - Arranquio</strong><br /></div>
+                1 - Após a passagem do arrancador, retire cuidadosamente as plantas de amendoim de dentro da armação.<br />
+                2 - Conte todas as vagens de 2 grãos que encontrar sobre o solo, dentro da área da armação. Elas corresponderão às perdas visíveis no arranquio.<br />
+                <br />
+
+                <div className="info"><strong>C - Contando as vagens - Recolhimento</strong><br /></div>
+                1 - Após a passagem da recolhedora,  Conte todas as vagens de 2 grãos que encontrar sobre o solo, dentro da área da armação. Elas corresponderão às perdas visíveis totais (arranquio + recolhimento).<br />
+                <br />
+                <div className="info"><strong>D - Preenchenco os dados</strong><br /></div>
+                1 - Selecione a variedade.<br />
+                2 - Selecione a operação a ser avaliada.<br />
+                3 - Selecione o tipo de perdas a ser avaliada.<br />
+                4 - Digite o número de vagens encontradas dentro da área da armação.<br />
+                5 - Digite o valor da saca de amendoim.<br />
+                6 - Clique em AVALIAR.<br />
             </div>
         </div>
     );

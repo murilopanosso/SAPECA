@@ -26,9 +26,8 @@ class Measurements extends Component {
     }
 
     renderCalculationTab(){ 
-        console.log(this.props.mr);       
         if(this.props.mr 
-            && this.props.mr.moneyLost
+            && this.props.mr.moneyLostHe
             &&  this.props.mr.lossesKg){
             return <MeasurementsResult result={this.props.mr} />
         } else {

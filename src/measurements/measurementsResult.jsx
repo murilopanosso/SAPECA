@@ -20,9 +20,9 @@ class MeasurementsResult extends Component {
         const {handleSubmit} = this.props;
         return (
             <div id="panel-result" className="panel-result">
-                        Sua lavoura perdeu <strong>{props.result.lossesKg}</strong> Kg Ha-¹<br />
-                        Você deixou de ganhar <strong>{props.result.moneyLost}</strong> Reais
-                        <button className='btn btn-success form-control' id="btn-reset" onClick={this.props.reset}>VOLTAR</button>
+                        Sua lavoura perdeu <strong>{props.result.lossesScAlq}sc/alq</strong> (<strong>{props.result.lossesKg}kg/ha</strong>)<br />
+                        Você deixou de ganhar <strong>{props.result.moneyLostAlq}R$/alq</strong> (<strong>{props.result.moneyLostHe}R$/ha</strong>)
+                        <button className='btn btn-success form-control' id="btn-reset" onClick={props.reset}>VOLTAR</button>
             </div>
         )
     }

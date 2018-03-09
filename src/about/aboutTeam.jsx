@@ -5,19 +5,29 @@ class AboutTeam extends Component {
 
     render() {
         return (
-            <div class="paper">
-            <div class="lines">
-                <div class="text"  spellcheck="false">
-                             <strong>Hi Google Play Team !!!</strong><br />
-                            SAPECA App was developed and<br />is maintened by  <a href="https://www.linkedin.com/in/murilo-panosso-67770657" target='_blank'>Murilo Panosso</a><br />
-                            <strong>Developer account:</strong> murilopanosso@gmail.com<br />
-                            <strong>App title:</strong> Sapeca<br />
-                            <strong>App package name:</strong> com.wrapper.sapeca<br />
+            <div className="info">
+                <br />
+                <strong>SAPECA<br />
+                Sistema de Avaliação de Perdas na Colheita de Amendoim </strong><br /> <br />
+                Este aplicativo foi desenvolvido pela equipe do Laboratório de Máquinas e Mecanização Agrícola (LAMMA) da FCAV/UNESP - Jaboticabal, em parceria com o corpo técnico o Centro Universitário de Patos de Minas (UNIPAM).
+                <br /><br />
+                <strong>Equipe LAMMA</strong><br />
+                Prof. Dr. Rouverson Pereira da Silva<br />
+                M. Sc. Adão Felipe dos Santos<br />
+                Prof. Dr. Cristiano Zerbato<br /><br />
+
+                <strong>Equipe UNIPAM</strong><br />
+                Prof. José Corrêa Viana<br />
+                Bacharel Mirian Camila da Silva<br />
+                Graduando Kassius Antonio Ferraz<br /><br />
+                
+                <strong>Desenvolvimento</strong><br />
+                Murilo Panosso<br /><br /><br />
+                <strong>Realização</strong><br /><br /><br />
+                <div className="row">
+                    <div className="col-md-6 lamma"></div>
+                    <div className="col-md-6 unipam"></div>
                 </div>
-            </div>
-            <div class="holes hole-top "></div>
-            <div class="holes hole-middle"></div>
-            <div class="holes hole-bottom"></div>
             </div>
         );
     }
