@@ -7,7 +7,7 @@ import ContentHeader from '../common/template/contentHeader';
 import Content from '../common/template/content';
 import Tabs from '../common/tab/tabs';
 import TabsHeader from '../common/tab/tabsHeader';
-import TabsContent from '../common/tab/TabsContent';
+import TabsContent from '../common/tab/tabsContent';
 import TabHeader from '../common/tab/tabHeader';
 import TabContent from '../common/tab/tabContent';
 import {selectTab, showTabs} from '../common/tab/tabAction';
