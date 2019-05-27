@@ -22,7 +22,7 @@ class AboutTeam extends Component {
                 Graduando Kassius Antonio Ferraz<br /><br />
                 
                 <strong>Desenvolvimento</strong><br />
-                Murilo Panosso<br /><br /><br />
+                Murilo Panosso --- DEPLOYADO DA AZURE DEVOPS<br /><br /><br />
                 <strong>Realização</strong><br /><br /><br />
                 <div className="row">
                     <div className="col-md-6 lamma"></div>
