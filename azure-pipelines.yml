@@ -17,7 +17,7 @@ steps:
 
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: '$(System.DefaultWorkingDirectory)/murilopanosso.SAPECA'
+    PathtoPublish: '$(System.DefaultWorkingDirectory)/'
 
 - script: |
     npm install
